@@ -580,7 +580,7 @@
               (inline-params env
                 (compile-fn env [operator compiled-params])))))
         (compile-fn env [operator params])))
-    (throw (ex-info (str "Unknow operator: " operator)
+    (throw (ex-info (str "Unknown operator: " operator)
              {:type :unknow-operator
               :name operator}))))
 
